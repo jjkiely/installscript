@@ -271,17 +271,6 @@ fi
 #The user needs to reboot to apply all changes.
 mkdir /home/jkiely/dev/
 cd /home/jkiely/dev/
-git clone git@github.com:jjkiely/integreatly-operator.git
-cd integreatly-operator
-git remote add upstream git@github.com:integr8ly/integreatly-operator.git
-cd /home/jkiely/dev/
-git clone git@github.com:jjkiely/delorean.git
-cd delorean
-git remote add upstream git@github.com:integr8ly/delorean.git
-cd /home/jkiely/dev/
 git clone git@github.com:jjkiely/zshrc.git
-git clone git@gitlab.cee.redhat.com:jkiely/ci-cd.git
-cd ci/cd
-git remote add upstream git@gitlab.cee.redhat.com:integreatly-qe/ci-cd.git
 cd /home/jkiely/dev/
 echo "Please Reboot" && exit 0
